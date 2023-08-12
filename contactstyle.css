@@ -1,0 +1,83 @@
+section{
+    background-color:black;
+    color:white;
+} 
+ #d1 > .mb-3 > .form-text{
+    color:white;
+}
+.logo{
+    font-size: 20px;
+    color:white;
+}
+#let{
+    text-align: center;
+    height: 180px; 
+    background-color: grey;
+    width: 100%;
+     
+}
+/* #let > h2 {
+    padding-top: 50px;
+}
+#let > hr {
+    width: 15%;
+    
+    margin-left: 510px;
+   margin-bottom: 200px;
+   background-color: blueviolet;
+    height: 3px;
+    border: 0;
+} */
+
+#d1{
+    background-color:black;
+    color: white;
+}
+#b1{
+    margin-top: 10px;
+   margin-left: 10px;
+}
+/* .container1{
+    color:white;
+    text-align: center;
+    height: 200px;
+    background-color: black;
+}
+.container1 > hr {
+    width: 50%;
+    
+    margin-left: 300px;
+   margin-bottom: 500px;
+   background-color: blue;
+    height: 3px;
+    border: 0;
+} */
+.logoColor {
+    color: #006699 !important;
+  }
+#container2 > .row{
+    background-color:black;
+    color:white;
+    height: 300px;
+}
+#container2 > .row > .col-md-3 > img{
+   
+   border-radius: 100%;
+   height: 150px;
+   width: 150px;
+
+}
+/* .c3 {
+    background-color:blueviolet;
+    height: 60px;
+    color:white;
+} */
+.websiteLogo {
+    width: 20%;
+    height: 20%;
+}
+/* .c3 > a{
+    text-decoration: none;
+    float: right;
+    color: white;
+} */

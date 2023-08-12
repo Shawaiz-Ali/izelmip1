@@ -1,0 +1,95 @@
+.parallax {
+    /* The image used */
+    background-image: url("images/bg12.jpg");
+  
+    /* Set a specific height */
+    min-height: 500px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .logo{
+    font-size: 60px;
+    color:greenyellow;
+  }
+  .logoColor {
+    color: #006699 !important;
+  }
+  /* .bg-gradient {
+    background-image: linear-gradient(to bottom right, #006699, #1b1b1b);
+   } */
+
+  .websiteLogo {
+    width: 20%;
+    height: 20%;
+   }
+  .c2{
+   background-color: rgb(39, 39, 101);
+
+   text-align: center;
+   color:grey;
+      
+
+  }
+ 
+ .container{
+  background-color: black;
+  color:grey;
+  
+ }
+ /* .container > .row{
+  padding-top: 100px;
+ } */
+ 
+  /* .c1 > hr {
+    width: 18%;
+    margin-left: 500px;
+   margin-bottom: 200px;
+   background-color: blueviolet;
+    height: 3px;
+    border: 0;
+}
+.c1> h2{
+    padding-top: 50px;
+} */
+.p1 > p{
+  line-height: 22px;
+}
+ /* .p1{
+  
+  border: 2px solid white; 
+  height: 700px; 
+  }  */
+.p1 > img {
+  height: 350px;
+}
+
+/* .p1 > hr {
+  width: 25%;
+ margin-left: 200px;
+ margin-bottom: 50px;
+ background-color: blueviolet;
+  height: 3px;
+  border: 0;
+} */
+.c1{
+    background-color: grey;
+    color:white;
+    height: 200px;
+    text-align: center;
+}
+/* .c3 {
+  background-color:black;
+  height: 60px;
+  color:white;
+  font-size: 15px;
+}
+
+.c3 > a{
+  text-decoration: none;
+  float: right;
+  color: white;
+} */

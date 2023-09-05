@@ -56,9 +56,11 @@ section{
     color: #006699 !important;
   }
 #container2 > .row{
+    /* display: flex;
+    float:left; */
     background-color:black;
     color:white;
-    height: 300px;
+    
 }
 #container2 > .row > .col-md-3 > img{
    

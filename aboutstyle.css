@@ -40,6 +40,10 @@
   color:grey;
   
  }
+ #one{
+  display: flex;
+  float: left;
+ }
  /* .container > .row{
   padding-top: 100px;
  } */
@@ -55,9 +59,9 @@
 .c1> h2{
     padding-top: 50px;
 } */
-.p1 > p{
+/* .p1 > p{
   line-height: 22px;
-}
+} */
  /* .p1{
   
   border: 2px solid white; 

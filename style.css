@@ -141,13 +141,16 @@ section{
     margin-left: 500px;
 } */
 #c3{
+    display:flex;
+    float: left;
     background-color: black;
     color:white;
+    
 }
-#c3>.row{    
-    height: 600px;
+/* #c3>.row{    
+    height: 600px;g
     padding-top: 35px;
-  } 
+  }  */
   #c3 >.col-3{
     text-align: center;
    

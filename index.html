@@ -12,45 +12,50 @@
   </head>
 </head>
 <body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
   <header>
-    <nav class="navbar navbar-expand-md navbar-light black-bg bg-dark fixed-top bg-body-tertiary" data-bs-theme="dark">
-        
-        <div class="container-fluid ">
-            <a class="navbar-brand ml-5" href="index.html">
-             <svg xmlns="http://www.w3.org/2000/svg" height="4em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#1f5145}</style><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
-              <div class="text-left d-inline h2 pl-2 logoColor ">IZLEME</div>
-            </a>
-         
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item active text-primary">
-                <a class="nav-link text-white font-weight-bolder" aria-current="page" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link logoColor nav-hover" href="about.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link logoColor nav-hover" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link logoColor nav-hover" href="pricing.html">Packages</a>
-              </li>
-              
-            
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
+    <div class="container">
+            <nav class="navbar navbar-md  bg-dark fixed-top bg-body-tertiary" data-bs-theme="dark">
+                
+                
+                    <a class="navbar-brand ml-5" href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="2em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#1f5145}</style><path d="M
+                      215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
+                      <div class="text-left d-inline h2 pl-2 logoColor ">IZLEME</div>
+                    </a>
+                
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item active text-primary">
+                        <a class="nav-link text-white font-weight-bolder" aria-current="page" href="index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link logoColor nav-hover" href="about.html">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link logoColor nav-hover" href="contact.html">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link logoColor nav-hover" href="pricing.html">Packages</a>
+                      </li>
+                      
+                    
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+                
+              </nav>
           </div>
-        </div>
-      </nav>
     </header>
     <section>
-      <div id="carouselExampleRide" class=" container carousel slide" data-bs-ride="true">
+      <div id="carouselExampleSlidesOnly" class="container-fluid carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="images/t1.jpeg" class="d-block w-100" alt="Picture">
@@ -75,7 +80,7 @@
      
       
       
-      <div class="container-fluid black-bg no-gutters py-5">
+      <div class="container-fluid bg-black">
        
        <div class="row d-flex justify-content-center logoColor h1 font-weight-bolder">_________</div>
        <div class="row d-flex justify-content-center text-white h1">I Z L E M E</div>
@@ -92,28 +97,28 @@
       </div>
     </section>
       <section>
-      <div class="container-fluid d-flex black-bg " id="c3">
-        <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-3 text-center py-5">
-                <img src="images/tbike.jpg" style=" height:150px" >
+      <div class="container-fluid  black-bg " id="c3">
+        <div class="row d-flex bg-black">
+            <div class="col-xs-12 col-sm-12 col-md-3 text-center my-3">
+                <img src="./images/tbike.jpg" style="max-width: 200px;">
                 <h1 class="logoColor">MotorBike Tracker</h1>
                 <p class="text-muted">In an unfortunate event of theft, Izleme has introduced the Best Vehicle Tracking System which allows you to access 24×7 Real-Time Tracking of your vehicle on your mobile phone Anywhere Anytime in Pakistan.</p>
                 <button class="btn btn-outline-secondary"> Program Details</button>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 text-center py-5">
-                <img src="images/bio.jpg" style=" height:150px" >
+            <div class="col-xs-12 col-sm-12 col-md-3 text-center my-3">
+                <img src="./images/bio.jpg" style="max-width: 200px;" >
                 <h1 class="logoColor">Advance Biometric Solution</h1>
                 <p class="text-muted">Forget passwords, your fingerprint recognition is the only physiological feature which you’ll need for our Advanced Biometric Technology.</p>
                 <button class="btn btn-outline-secondary"> Program Details</button>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 text-center py-5">
-                <img src="images/gmap.jpg" style=" height:150px; width: 190px;" >
+            <div class="col-xs-12 col-sm-12 col-md-3 text-center my-3">
+                <img src="./images/gmap.jpg" style="max-width: 200px;">
                 <h1 class="logoColor">Geo Localized Map and Data</h1>
                 <p class="text-muted">Izleme brings the power of geo localized maps and data to your business. This service makes it easy to manage and interpret location-based data and has a wide variety of applications across many different industries.</p>
                 <button class="btn btn-outline-secondary"> Program Details</button>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 text-center py-5">
-                <img src="images/qw.jpg" style=" height:150px" >
+            <div class="col-xs-12 col-sm-12 col-md-3 text-center my-3">
+                <img src="./images/qw.jpg" style=" max-width: 160px">
                 <h1 class="logoColor">In Dash Navigation System</h1>
                 <p class="text-muted">In Dash Navigation System will provide you the comfortable ride all the way, the ultra navigation that will secure your ride and will navigate you till its last breath! Security all the way. Enjoy!</p>
                 <button class="btn btn-outline-secondary"> Program Details</button>
@@ -124,7 +129,7 @@
     </section>
     <div class="container-fluid bg-dark py-5">
       <div class="row d-flex justify-content-center text-white h3 font-weight-bold">Our Location</div>
-      <div class="row mt-n4 d-flex justify-content-center logoColor h1 font-weight-bolder">_________</div>
+      <div class="row  d-flex justify-content-center logoColor h1 font-weight-bolder">_________</div>
     </div>
       <!-- <div class="container4">
           <h2> Our Location</h2>
@@ -146,20 +151,20 @@
         <hr>
       </div> -->
       <section>
-      <div class="grid text-center container-fluid bg-black" >
-        <div class="row justify-content-around py-5">
-            <div class="col-xs-12 col-sm-6 col-md-3 text-center py-5  bg-white">
+      <div class="text-center container-fluid bg-black" >
+        <div class="row d-flex justify-content-around py-5">
+            <div class="col-xs-12 col-sm-12 col-md-3 text-center py-5  bg-white">
                 <h3 class="logoColor">Track & Guard your Two Wheeler with GPS Motorbike Tracker in Pakistan</h3>
                 <a href="">read more</a><br>
                 <a href="">admin</a>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 text-center py-5 bg-white">
+            <div class="col-xs-12 col-sm-12 col-md-3 text-center py-5 bg-white">
                 <h3 class="logoColor">Driver ID</h3>
                 
                 <a href="">read more</a><br>
                 <a href="">admin</a>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-3 text-center py-5 bg-white">
+            <div class="col-xs-12 col-sm-12 col-md-3 text-center py-5 bg-white">
                 <h3 class="logoColor">Best Tracking Service Company with having World’s Latest GPRS Technology</h3>
                 <a href="">read more</a><br>
                 <a href="">admin</a>
@@ -179,24 +184,24 @@
         <hr>
       </div> -->
       <section>
-      <div class="grid text-center container-fluid bg-black" id="d3">
-        <div class="row justify-content-around">
-            <div class="col-4">
-                <img src="images/shell.png">
+      <div class=" d-grid text-center container-fluid bg-black" id="d3">
+        <div class="row  justify-content-around">
+            <div class=" col-4 col-xs-12 col-md-3 my-3">
+                <img src="images/shell.png" style="max-width:100px ;">
                 <h2>SHELL</h2>
-                <img src="images/efu.jpg">
+                <img src="images/efu.jpg" style="max-width: 100px;">
                 <h2>EFU INSURANCE</h2>
             </div>
-            <div class="col-4">
-                <img src="images/pitb.png">
+            <div class=" col-4 col-xs-12 col-md-3 my-3">
+                <img src="images/pitb.png" style="max-width: 100px;">
                 <h2>PITB GOV. PAK</h2>
-                <img src="images/mits.png">
+                <img src="images/mits.png" style="max-width: 100px;">
                 <h2>MITSUBISHI</h2>
             </div>
-            <div class="col-4">
-                <img src="images/orix.jpg">
+            <div class=" col-4 col-xs-12 col-md-3 my-3">
+                <img src="images/orix.jpg" style="max-width: 100px;">
                 <h2>ORIX</h2>
-                <img src="images/gtr.jpg">
+                <img src="images/gtr.jpg" style="max-width: 100px;">
                 <h2>Nissan</h2>
             </div>
         </div>
@@ -210,7 +215,7 @@
       </div> -->
   
     
-      <div class="row pt-2">
+      <div class=" row pt-2">
         <div class="col-11 d-flex">
 
         
@@ -224,7 +229,6 @@
       </div>
       <div class="mt-n3 ml-lg-5 ml-3 font-weight-light">Assign by:  Basima</div>   
     </footer>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 
 </body>
 </html>

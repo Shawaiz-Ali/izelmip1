@@ -3,12 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body,html{
     height:100vh;
     width:100%;
     padding: 0px;
     margin:0px;
     font-family: 'Courier New', Courier, monospace;
+    overflow-x: hidden;
 }
 .logoColor {
     color: #006699 !important;
